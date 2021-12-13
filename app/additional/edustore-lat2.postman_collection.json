@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "c03cfd10-e456-4efe-9adf-4cc85369281b",
+		"name": "edustore-lat2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AuthA",
+			"item": [
+				{
+					"name": "Sign Up (student)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "John",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "john.doe@edustore.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "secret",
+									"type": "text"
+								},
+								{
+									"key": "confirm_password",
+									"value": "secret",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://edustore-learn-at-home.local/api/signup",
+							"protocol": "http",
+							"host": [
+								"edustore-learn-at-home",
+								"local"
+							],
+							"path": [
+								"api",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sign In",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "john.doe@edustore.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "secret",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://edustore-learn-at-home.local/api/signin",
+							"protocol": "http",
+							"host": [
+								"edustore-learn-at-home",
+								"local"
+							],
+							"path": [
+								"api",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sign Out",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "1|JXNd01yhw4hsai5KQ0O0cXxu2U74FtwBKo0qDLXc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://edustore-learn-at-home.local/api/signout",
+							"protocol": "http",
+							"host": [
+								"edustore-learn-at-home",
+								"local"
+							],
+							"path": [
+								"api",
+								"signout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profile data",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "10|AtMTiRZdZmsa61Xd8ilzNGJrRgkkTjlhX0x9QDnt",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://edustore-learn-at-home.local/api/profile",
+							"protocol": "http",
+							"host": [
+								"edustore-learn-at-home",
+								"local"
+							],
+							"path": [
+								"api",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://edustore-learn-at-home.local/api/home",
+					"protocol": "http",
+					"host": [
+						"edustore-learn-at-home",
+						"local"
+					],
+					"path": [
+						"api",
+						"home"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

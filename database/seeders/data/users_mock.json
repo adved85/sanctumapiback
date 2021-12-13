@@ -1,0 +1,51 @@
+[
+    {
+        "first_name": "student1_first",
+        "last_name": "student1_last",
+        "email": "st1@edustore.com",
+        "password": "$2y$10$HvrZVKCBnlAvLxhkcu9OaexyNACS0oG67L3YjS1j273J54x9gCG62",
+        "role": "student"
+    },
+    {
+        "first_name": "student2_first",
+        "last_name": "student2_last",
+        "email": "st2@edustore.com",
+        "password": "$2y$10$HvrZVKCBnlAvLxhkcu9OaexyNACS0oG67L3YjS1j273J54x9gCG62",
+        "role": "student"
+    },
+    {
+        "first_name": "student3_first",
+        "last_name": "student3_last",
+        "email": "st3@edustore.com",
+        "password": "$2y$10$HvrZVKCBnlAvLxhkcu9OaexyNACS0oG67L3YjS1j273J54x9gCG62",
+        "role": "student"
+    },
+    {
+        "first_name": "coach1_first",
+        "last_name": "coach1_last",
+        "email": "co1@edustore.com",
+        "password": "$2y$10$HvrZVKCBnlAvLxhkcu9OaexyNACS0oG67L3YjS1j273J54x9gCG62",
+        "role": "coach"
+    },
+    {
+        "first_name": "coach2_first",
+        "last_name": "coach2_last",
+        "email": "co2@edustore.com",
+        "password": "$2y$10$HvrZVKCBnlAvLxhkcu9OaexyNACS0oG67L3YjS1j273J54x9gCG62",
+        "role": "coach"
+    },
+    {
+        "first_name": "coach3_first",
+        "last_name": "coach3_last",
+        "email": "co3@edustore.com",
+        "password": "$2y$10$HvrZVKCBnlAvLxhkcu9OaexyNACS0oG67L3YjS1j273J54x9gCG62",
+        "role": "coach"
+    },
+    {
+        "first_name": "admin1_first",
+        "last_name": "admin1_last",
+        "email": "admin1@edustore.com",
+        "password": "$2y$10$HvrZVKCBnlAvLxhkcu9OaexyNACS0oG67L3YjS1j273J54x9gCG62",
+        "role": "admin"
+    }
+]
